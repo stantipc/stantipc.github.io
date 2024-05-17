@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nature's Embrace</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #fff;
+			color: #333;
+		}
+
+		header {
+			background-color: rgba(110, 44, 138, 0.8);
+			color: #fff;
+			padding: 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+
+		nav ul li {
+			margin-right: 20px;
+		}
+
+		nav ul li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		.main-content {
+			padding-top: 60px; /* Space for header */
+			text-align: center;
+		}
+
+		.hero {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			padding: 50px 20px;
+			background-color: #fff;
+		}
+
+		.hero h1 {
+			font-size: 48px;
+			margin: 20px 0;
+			color: #000;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+		}
+
+		.btn {
+			background-color: #ffc107;
+			color: #333;
+			padding: 10px 20px;
+			text-decoration: none;
+			border-radius: 4px;
+			transition: background-color 0.3s ease;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+		}
+
+		.btn:hover {
+			background-color: #ffa000;
+		}
+
+		.description {
+			padding: 40px;
+			background-color: #fff;
+			color: #333;
+			text-align: center;
+		}
+
+		.video-section {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.video-section video {
+			width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="Content.html">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<a href="#" class="btn">Log In</a>
+	</header>
+
+	<div class="main-content">
+		<div class="hero">
+			<h1>Nature's Embrace</h1>
+			<a href="#" class="btn">Explore Now</a>
+		</div>
+
+		<div class="description">
+			<p>This video showcases the breathtaking beauty of nature, capturing the serene landscapes and diverse ecosystems. Enjoy the tranquility and immerse yourself in the natural wonders.</p>
+		</div>
+	</div>
+
+	<div class="video-section">
+		<video autoplay muted loop>
+			<source src="video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+</body>
+</html>
